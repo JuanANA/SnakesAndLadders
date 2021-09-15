@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SnakesAndLadders
 {
-    class Die
+    public class Die
     {
+        //Roll the die
         public int RollDie()
         {
             Random rand = new Random();
